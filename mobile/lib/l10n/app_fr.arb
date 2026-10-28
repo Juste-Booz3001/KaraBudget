@@ -1,0 +1,538 @@
+{
+  "@@locale": "fr",
+  "accountAndSync": "Compte et synchronisation",
+  "activity": "Activité",
+  "activityCreate": "{who} a ajouté {entity} {label}",
+  "@activityCreate": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      },
+      "entity": {
+        "type": "String"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "activityUpdate": "{who} a modifié {entity} {label}",
+  "@activityUpdate": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      },
+      "entity": {
+        "type": "String"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "activityDelete": "{who} a supprimé {entity} {label}",
+  "@activityDelete": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      },
+      "entity": {
+        "type": "String"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "addContribution": "Ajouter un versement",
+  "allSettled": "Tout est réglé : personne ne doit rien.",
+  "alreadyPresent": "déjà présente",
+  "amount": "Montant",
+  "amountOptional": "Montant (facultatif)",
+  "andMore": "… et {n} autres lignes",
+  "@andMore": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "appLockHelp": "Demande un code PIN à l’ouverture et après 30 s en arrière-plan",
+  "appLocked": "KaraBudget est verrouillé",
+  "appearance": "Apparence et langue",
+  "atCurrentPace": "au rythme actuel",
+  "attachPhoto": "Ajouter une photo",
+  "autoSyncActive": "Synchronisation automatique active",
+  "averagePerDay": "Moyenne par jour",
+  "backupCreated": "Sauvegarde créée",
+  "backupDatabase": "Sauvegarder la base",
+  "backupHelp": "Crée un fichier SQLite à enregistrer ou partager (les reçus ne sont pas inclus)",
+  "balances": "Soldes",
+  "budgetAlmostReached": "Budget presque atteint",
+  "budgetAndData": "Budget et données",
+  "budgetExceeded": "Budget dépassé",
+  "budgetOf": "Budget « {name} »",
+  "@budgetOf": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "budgets": "Budgets",
+  "byCategory": "Par catégorie",
+  "cancel": "Annuler",
+  "carryNegative": "Dépassement reporté du mois précédent : −{amount}",
+  "@carryNegative": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "carryPositive": "Reste reporté du mois précédent : +{amount}",
+  "@carryPositive": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "categories": "Catégories",
+  "category": "Catégorie",
+  "changePin": "Changer le code PIN",
+  "changesVsPrevious": "Évolution par rapport au mois précédent",
+  "chooseColumns": "Choisissez au moins la colonne date et la colonne montant (ou débit).",
+  "chooseFile": "Choisir un fichier",
+  "choosePin": "Choisissez un code PIN (4 à 8 chiffres)",
+  "clearDates": "Effacer les dates",
+  "closeApp": "Fermer l’application",
+  "codeCopied": "Code copié",
+  "colAmount": "Montant",
+  "colCategory": "Catégorie",
+  "colDate": "Date",
+  "colDebit": "Débit",
+  "colNote": "Libellé",
+  "confirmPin": "Confirmez le code PIN",
+  "create": "Créer",
+  "createAccount": "Créer un compte",
+  "createSharedSpace": "Créer un espace partagé",
+  "csvEmpty": "Fichier CSV vide ou illisible",
+  "currency": "Devise",
+  "dataStaysOnDevice": "Vos données restent sur cet appareil",
+  "dayFirst": "Dates au format jour/mois/année",
+  "defaultCurrency": "Devise par défaut",
+  "delete": "Supprimer",
+  "deleteCategoryConfirm": "Supprimer « {name} » ? Les dépenses restent, sans catégorie.",
+  "@deleteCategoryConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteGoalConfirm": "Supprimer cet objectif et tous ses versements ?",
+  "disableAppLock": "Désactiver le verrouillage",
+  "dueDate": "Échéance",
+  "edit": "Modifier",
+  "editCategory": "Modifier la catégorie",
+  "editGoal": "Modifier l’objectif",
+  "editRate": "Modifier le taux",
+  "editTemplate": "Modifier le modèle",
+  "email": "Email",
+  "enableAppLock": "Verrouiller l’application",
+  "entBudget": "le budget",
+  "entCategory": "la catégorie",
+  "entContribution": "le versement",
+  "entExpense": "la dépense",
+  "entGoal": "l’objectif",
+  "entRate": "le taux de change",
+  "entRecurring": "la dépense récurrente",
+  "entSettlement": "le remboursement",
+  "enterCurrentPin": "Entrez le code PIN actuel",
+  "enterPin": "Code PIN",
+  "everyDay": "Chaque jour",
+  "everyMonth": "Chaque mois",
+  "everyWeek": "Chaque semaine",
+  "exceededBy": "dépassé de {amount}",
+  "@exceededBy": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeRates": "Taux de change",
+  "expense": "Dépense",
+  "expenses": "Dépenses",
+  "exportCsv": "Exporter en CSV (mois affiché)",
+  "exportPdf": "Exporter en PDF (mois affiché)",
+  "filters": "Filtres",
+  "firstLineIsHeader": "La première ligne est un en-tête",
+  "fromDate": "Du…",
+  "goalDue": "Échéance : {date}",
+  "@goalDue": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "goalName": "Nom de l’objectif",
+  "goalOverdue": "Date cible dépassée",
+  "goalReached": "Objectif atteint !",
+  "haveAccount": "J’ai déjà un compte",
+  "importBadAmount": "montant illisible",
+  "importBadDate": "date illisible",
+  "importCsv": "Importer un CSV",
+  "importDone": "{n} dépense(s) importée(s)",
+  "@importDone": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "importDuplicates": "{n} doublon(s)",
+  "@importDuplicates": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "importErrors": "{n} erreur(s)",
+  "@importErrors": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "importExportBackup": "Import, export et sauvegarde",
+  "importIncomeSkipped": "revenu ignoré",
+  "importIntro": "Importez un relevé bancaire ou un ancien suivi (CSV). Les lignes déjà présentes sont détectées et ne sont pas ajoutées deux fois.",
+  "importLine": "Ligne {n}",
+  "@importLine": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "importN": "Importer {n} dépense(s)",
+  "@importN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "importNew": "{n} nouvelle(s)",
+  "@importNew": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "importSkipped": "{n} ignorée(s)",
+  "@importSkipped": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "importZeroSkipped": "montant nul ignoré",
+  "invalidAmount": "Montant invalide",
+  "invalidRate": "Taux invalide",
+  "inviteCode": "Code d’invitation",
+  "inviteCodeLabel": "Code d’invitation : {code}",
+  "@inviteCodeLabel": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "inviteHelp": "À donner aux personnes à inviter",
+  "isOwed": "On lui doit de l’argent",
+  "joinSpace": "Rejoindre un espace partagé",
+  "language": "Langue",
+  "lastSixMonths": "6 derniers mois",
+  "lastSync": "dernière synchro {time}",
+  "@lastSync": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveConfirm": "Quitter cet espace ? Vous perdrez l’accès à ses données.",
+  "leaveSpace": "Quitter l’espace",
+  "localModeHint": "Mode local — connectez-vous pour synchroniser",
+  "lockEnabled": "Verrouillage activé",
+  "manageCategories": "Gérer les catégories",
+  "markRepaid": "Marquer remboursé",
+  "maxAmount": "Montant max",
+  "members": "Membres",
+  "membersBalancesActivity": "Membres, soldes et activité",
+  "minAmount": "Montant min",
+  "missingRates": "Aucun taux pour {list} vers {currency} : ces dépenses sont exclues des totaux.",
+  "@missingRates": {
+    "placeholders": {
+      "list": {
+        "type": "String"
+      },
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "monthTotal": "Total du mois",
+  "monthlyAmount": "Montant mensuel",
+  "name": "Nom",
+  "newCategory": "Nouvelle catégorie",
+  "newExpense": "Nouvelle dépense",
+  "newGoal": "Nouvel objectif",
+  "newRate": "Nouveau taux",
+  "newRecurring": "Nouvelle récurrence",
+  "newTemplate": "Nouveau modèle",
+  "nextDue": "Prochaine échéance : {date}",
+  "@nextDue": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "no": "Non",
+  "noActivity": "Aucune activité pour l’instant",
+  "noAmountDetected": "Total introuvable : saisissez le montant.",
+  "noBudgetSet": "Aucun budget défini",
+  "noCategory": "Sans catégorie",
+  "noDataThisMonth": "Aucune donnée ce mois-ci",
+  "noExpensesThisMonth": "Aucune dépense ce mois-ci",
+  "noGoals": "Aucun objectif d’épargne",
+  "noPreviousData": "pas de comparaison",
+  "noRateFor": "Aucun taux {from} → {to}",
+  "@noRateFor": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "noRecurring": "Aucune dépense récurrente",
+  "noResults": "Aucun résultat",
+  "noTargetDate": "Pas de date cible",
+  "noTemplates": "Créez des modèles (montant, catégorie, note) pour saisir vos dépenses fréquentes en un geste.",
+  "none": "Aucune",
+  "notABackup": "Ce fichier n’est pas une sauvegarde KaraBudget",
+  "notSignedIn": "Non connecté",
+  "note": "Note",
+  "noteRecurringHint": "Note (loyer, abonnement…)",
+  "nothingToExport": "Rien à exporter pour ce mois",
+  "ofTarget": "sur {amount}",
+  "@ofTarget": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "ok": "OK",
+  "onlyWithReceipt": "Seulement avec un reçu",
+  "owes": "Doit de l’argent",
+  "paidBy": "Payé par",
+  "paidByName": "payé par {name}",
+  "@paidByName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "passwordHint": "Mot de passe (8+ caractères)",
+  "pasteFromClipboard": "Coller le presse-papiers",
+  "pendingChanges": "{n} modification(s) en attente",
+  "@pendingChanges": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "perMonthNeeded": "À épargner : {amount} par mois",
+  "@perMonthNeeded": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "personal": "Personnel",
+  "pinHint": "4 à 8 chiffres",
+  "pinMismatch": "Les codes ne correspondent pas",
+  "pinTooShort": "4 chiffres minimum",
+  "previousMonth": "Mois précédent",
+  "projectedEndOfMonth": "Projection fin de mois",
+  "projectionEarly": "estimation peu fiable (début de mois)",
+  "quickEntryBody": "Touchez pour ajouter une dépense",
+  "quickEntryHelp": "Notification permanente : un toucher ouvre l’ajout de dépense",
+  "quickEntryNotification": "Notification de saisie rapide",
+  "quickEntryTitle": "KaraBudget",
+  "quickTemplates": "Modèles de saisie rapide",
+  "rateFrom": "De",
+  "rateHelp": "Exemple : 4800 si 1 EUR = 4 800 MGA",
+  "rateTo": "Vers",
+  "rateValue": "Valeur de 1 {from} en {to}",
+  "@rateValue": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "ratesIntro": "Saisissez vos taux pour convertir les dépenses en autres devises vers {currency} dans les totaux, budgets et statistiques.",
+  "@ratesIntro": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "readOnlyBanner": "Vous êtes en lecture seule dans cet espace.",
+  "receipt": "Reçu",
+  "recurring": "Récurrence",
+  "recurringExpenses": "Dépenses récurrentes",
+  "recurringReminderTitle": "Dépense récurrente",
+  "regenerateCode": "Générer un nouveau code",
+  "regenerateConfirm": "L’ancien code ne fonctionnera plus. Générer un nouveau code ?",
+  "removeMember": "Retirer de l’espace",
+  "removeMemberConfirm": "Retirer {email} de l’espace ?",
+  "@removeMemberConfirm": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "removePhoto": "Retirer la photo",
+  "repayments": "Remboursements",
+  "restartToFinish": "Fermez puis rouvrez KaraBudget pour terminer la restauration des données.",
+  "restoreConfirm": "La sauvegarde remplacera toutes les données de cet appareil. Continuer ?",
+  "restoreDatabase": "Restaurer une sauvegarde",
+  "restorePrepared": "Restauration prête",
+  "resultsCount": "{n} résultat(s)",
+  "@resultsCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "roleEditor": "Éditeur",
+  "roleOwner": "Propriétaire",
+  "roleViewer": "Lecteur",
+  "rolloverHelp": "Le reste (ou le dépassement) du mois précédent s’ajoute à ce budget",
+  "rolloverTitle": "Reporter le reste",
+  "save": "Enregistrer",
+  "saveAsTemplate": "Enregistrer comme modèle",
+  "savingsGoals": "Objectifs d’épargne",
+  "scanFailed": "Scan impossible : {error}",
+  "@scanFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "scanReceipt": "Scanner un reçu",
+  "search": "Rechercher",
+  "searchHint": "Rechercher une dépense…",
+  "searchPrompt": "Tapez un mot ou choisissez des filtres",
+  "security": "Sécurité",
+  "serverAddress": "Adresse du serveur",
+  "settings": "Réglages",
+  "sharedOnly": "Disponible dans un espace partagé. Choisissez-en un dans les réglages.",
+  "sharesMustEqualTotal": "La somme des parts doit être égale au montant",
+  "signAbsolute": "Tout est une dépense (valeur absolue)",
+  "signAuto": "Automatique",
+  "signIn": "Connexion",
+  "signInAction": "Se connecter",
+  "signMode": "Sens des montants",
+  "signNegative": "Les négatifs sont des dépenses",
+  "signOut": "Déconnexion",
+  "signPositive": "Les positifs sont des dépenses",
+  "signedIn": "Connecté",
+  "spaceName": "Nom de l’espace",
+  "spaceNameHint": "Couple, colocation…",
+  "spacesTitle": "Espaces (budget partagé)",
+  "splitEqual": "Parts égales",
+  "splitExact": "Montants",
+  "splitNeedsPeople": "Choisissez au moins une personne",
+  "splitNone": "Non partagée",
+  "statistics": "Statistiques",
+  "statsShort": "Stats",
+  "syncNow": "Synchroniser maintenant",
+  "synced": "Synchronisé",
+  "syncing": "Synchronisation…",
+  "tags": "Étiquettes",
+  "tagsHint": "courses, resto",
+  "targetAmount": "Montant cible",
+  "templateName": "Nom du modèle",
+  "templateSaved": "Modèle enregistré",
+  "theme": "Thème",
+  "themeDark": "Sombre",
+  "themeLight": "Clair",
+  "themeSystem": "Système",
+  "toDate": "Au…",
+  "tooManyAttempts": "Trop d’essais. Patientez 30 secondes.",
+  "totalDetected": "Total détecté sur le reçu : vérifiez-le",
+  "transferLine": "{from} → {to} : {amount}",
+  "@transferLine": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "unconvertedWarning": "{n} dépense(s) exclue(s) : taux de change manquant",
+  "@unconvertedWarning": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "unlock": "Déverrouiller",
+  "unlockReason": "Déverrouiller KaraBudget",
+  "useBiometrics": "Utiliser l’empreinte / le visage",
+  "vsPreviousMonth": "vs mois précédent",
+  "withdraw": "Retirer de l’argent",
+  "wrongPin": "Code PIN incorrect",
+  "yes": "Oui",
+  "youLabel": "{email} (vous)",
+  "@youLabel": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "zeroDecimalHint": "Cette devise n’a pas de décimales : « 1 500 » vaut 1 500."
+}

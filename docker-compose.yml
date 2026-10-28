@@ -1,0 +1,22 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: kara
+      POSTGRES_PASSWORD: kara
+      POSTGRES_DB: karabudget
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kara"]
+      interval: 5s
+      retries: 10
+  api:
+    build: ./backend
+    environment:
+      KARA_DATABASE_URL: postgresql+psycopg://kara:kara@db:5432/karabudget
+      KARA_SECRET_KEY: ${KARA_SECRET_KEY:?définir KARA_SECRET_KEY (>= 32 caractères)}
+    ports: ["8000:8000"]
+    depends_on:
+      db: {condition: service_healthy}
+volumes:
+  pgdata:

@@ -1,0 +1,26 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    defaults: {run: {working-directory: backend}}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12", cache: pip, cache-dependency-path: backend/requirements.txt}
+      - run: pip install -r requirements.txt
+      - run: pytest -q
+  mobile:
+    runs-on: ubuntu-latest
+    defaults: {run: {working-directory: mobile}}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with: {channel: stable, cache: true}
+      - run: sudo apt-get update && sudo apt-get install -y libsqlite3-dev
+      - run: flutter create --platforms=android . --project-name karabudget
+      - run: flutter pub get               # génère aussi AppLocalizations (lib/l10n/*.arb)
+      - run: dart run build_runner build --delete-conflicting-outputs
+      - run: flutter analyze
+      - run: flutter test
+      - run: flutter build apk --debug

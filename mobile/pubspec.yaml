@@ -1,0 +1,67 @@
+name: karabudget
+description: Gestionnaire de dépenses offline-first avec synchronisation.
+publish_to: none
+version: 2.0.0+2
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  drift: ^2.20.0
+  drift_flutter: ^0.2.0
+  dio: ^5.7.0
+  shared_preferences: ^2.3.2
+  connectivity_plus: ^6.0.5
+  uuid: ^4.5.0
+  intl: ^0.20.3
+  fl_chart: ^0.69.0
+  flutter_local_notifications: ^17.2.3
+  timezone: ^0.9.4
+  csv: ^6.0.0
+  pdf: ^3.11.1
+  path_provider: ^2.1.4
+  share_plus: ^10.0.0
+  image_picker: ^1.1.2
+  google_mlkit_text_recognition: ^0.13.1
+  file_picker: ^8.1.2        # import CSV, restauration de sauvegarde, « Enregistrer sous » sur ordinateur
+  crypto: ^3.0.3             # hachage du code PIN
+  local_auth: ^2.3.0         # biométrie (Android/iOS)
+  home_widget: ^0.7.0        # widget d'écran d'accueil Android
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.12
+  drift_dev: ^2.20.0
+
+flutter:
+  uses-material-design: true
+  generate: true             # génère AppLocalizations depuis lib/l10n/*.arb (l10n.yaml)
+  fonts:
+    # polices variables embarquées (licence OFL) : l'app reste 100 % hors-ligne
+    - family: Urbanist
+      fonts:
+        - asset: assets/fonts/Urbanist.ttf
+          weight: 500
+        - asset: assets/fonts/Urbanist.ttf
+          weight: 600
+        - asset: assets/fonts/Urbanist.ttf
+          weight: 700
+        - asset: assets/fonts/Urbanist.ttf
+          weight: 800
+    - family: Figtree
+      fonts:
+        - asset: assets/fonts/Figtree.ttf
+          weight: 400
+        - asset: assets/fonts/Figtree.ttf
+          weight: 500
+        - asset: assets/fonts/Figtree.ttf
+          weight: 600
+        - asset: assets/fonts/Figtree.ttf
+          weight: 700
